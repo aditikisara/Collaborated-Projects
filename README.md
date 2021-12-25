@@ -19,7 +19,7 @@ Main GitHub repository: https://github.com/alejandrohsanchez/Community-Shelter-a
 
 -------------------------------------------------------------------------------
 
-OpenCV Cow Detection
+## OpenCV Cow Detection
 
 Diamond J. Dairy is a modern dairy farm in Merced that utilizes an automated, state-of-the-art soaker system to keep their cows cool and maximize dairy production. To achieve this, they periodically spray their cows with water whenever the temperature reaches a certain range. However, with the way their soaker control system is set up, sometimes the water will spray the pen even when there are no cows present. This leads to a significant water waste.
 
@@ -37,7 +37,7 @@ Main GitHub repository: https://github.com/shiv248/OpenCV-Cow-Detection
 
 -------------------------------------------------------------------------------
 
-Task Manager
+## Task Manager
 
 My team and I created a collaborative task manager. Every board created has a project name and a session password. This unique set of information is used by other users to join the same board. Within each board, users can create tasks and mark them as "In-Progress" or "Completed". They also have the option to write notes on the bottom or clear all of the tasks.
 

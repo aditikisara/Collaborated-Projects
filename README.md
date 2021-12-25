@@ -1,7 +1,6 @@
 # Collaborated-Projects
 The following ReadMe contains detailed information on the projects I have collaborated on.
 
--------------------------------------------------------------------------------
 
 ## Community Shelter and Food Pantry Logger
 
@@ -17,7 +16,6 @@ The following YouTube video will show a demo of our app: https://youtu.be/3Esg5Z
 
 Main GitHub repository: https://github.com/alejandrohsanchez/Community-Shelter-and-Food-Pantry-Data-Logger
 
--------------------------------------------------------------------------------
 
 ## OpenCV Cow Detection
 
@@ -35,7 +33,6 @@ The following YouTube video will show a demo of our project: https://youtu.be/Vb
 
 Main GitHub repository: https://github.com/shiv248/OpenCV-Cow-Detection
 
--------------------------------------------------------------------------------
 
 ## Task Manager
 

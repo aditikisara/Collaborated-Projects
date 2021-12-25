@@ -9,7 +9,13 @@ For our Database Systems project, my colleague and I created a webapp filled wit
 
 We didn't want regular users to be able to make major changes to our database, so we created the role of "admin". The purpose of the admin is to edit/delete managers or users. That way, changes made to the database are secure. Currently the only admins are my colleague and me.
 
+We used HTML and CSS to create the pages and Flask (a Python library) to navigate through them. Our database is handled through SQLite, which allows us to easily make changes to our database.
+
 Visit our website, https://nightraven.pythonanywhere.com/, to view the full capabilities of our project. Any related diagrams (Entity Relationship Diagram, Relational Schema, and Use-Case Diagram) can be found in our slides embedded in the About page.
+
+The following YouTube video will show a demo of our app: https://youtu.be/3Esg5ZAZu18
+
+Main GitHub repository: https://github.com/alejandrohsanchez/Community-Shelter-and-Food-Pantry-Data-Logger
 
 -------------------------------------------------------------------------------
 
@@ -17,6 +23,18 @@ OpenCV Cow Detection
 
 Diamond J. Dairy is a modern dairy farm in Merced that utilizes an automated, state-of-the-art soaker system to keep their cows cool and maximize dairy production. To achieve this, they periodically spray their cows with water whenever the temperature reaches a certain range. However, with the way their soaker control system is set up, sometimes the water will spray the pen even when there are no cows present. This leads to a significant water waste.
 
-To combat this, my team and I devised a solution to save water without compromising the comfort of the farm’s cows. We installed a camera at the top of a barn so that we could view both pens at the same time. This video feed is then saved in a Raspberry Pi, where it is stored in an SD Card. The recorded video feed will then be fed through our program, where we use OpenCV and YOLO weights to detect cows.
+The soaker control system determines when water should be sprayed. It has a built in temperature tracker that measures the thermal heat index. When the temperature reaches a certain point, the water in the pipe runs through the first pen for a minute, shuts off, then moves on to the next pen. Once the water runs through all of the pens, the system will shut off for 10 minutes and cool the cows through evaporative cooling, which is the conversion of water into vapor using the thermal energy in the air, resulting in a lower air temperature. This process repeats again with a 2-minute shut-off period for as long as the temperature stays within that range.
+
+Each barn has two pens and each pen has a long pipe with multiple nozzles for the water to spray. Suppose there are no cows in a pen when the system turns on. The barn is divided into 15 sections, each separated by a supporting beam. Each section has roughly 4 nozzles, so there are a total of 60 nozzles per pen. Each gallon sprays about 1.2 - 2 gallons of water per minute. That means that there is at least 72 gallons of water wasted in one pen in the first cycle alone.
+
+Our client has tasked us to create a system that will minimize the amount of water wasted without compromising the comfort of their cows.
+
+My team and I devised a solution to save water without compromising the comfort of the farm’s cows. We installed a camera at the top of a barn so that we could view both pens at the same time. This video feed is then saved in a Raspberry Pi, where it is stored in an SD Card. The recorded video feed will then be fed through our program, where we use OpenCV and YOLO weights to detect cows.
 
 In the future, we would like to have our program work with the soaker control system to move to the next pen where there are no cows available.
+
+The following YouTube video will show a demo of our project: https://youtu.be/VbfIQHSTxx8
+
+Main GitHub repository: https://github.com/shiv248/OpenCV-Cow-Detection
+
+-------------------------------------------------------------------------------

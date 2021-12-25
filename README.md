@@ -40,6 +40,6 @@ My team and I created a collaborative task manager. Every board created has a pr
 
 In future iterations, we would like to have users input the usernames of the people that are allowed in a board to make the app more secure. Any time a user logs in, the information entered will be checked with our existing database. If the user is under the session they specified, then they will be allowed to enter the board. If not, then an error message would pop up.
 
-The following YouTube video will show a demo of our project: 
+The following YouTube video will show a demo of our project: https://youtu.be/ZRP6-l7v8cg
 
 Main GitHub repository: https://github.com/aditikisara/Exploratory-Computing-Projects/tree/main/CSE106-Final

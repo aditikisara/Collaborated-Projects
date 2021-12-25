@@ -3,7 +3,7 @@ The following ReadMe contains detailed information on the projects I have collab
 
 -------------------------------------------------------------------------------
 
-Community Shelter and Food Pantry Logger
+## Community Shelter and Food Pantry Logger
 
 For our Database Systems project, my colleague and I created a webapp filled with resources for people in underserved communities. We gathered data from Google and created our own database from scratch. Our app consists of six services: food pantries, clothing banks, soup kitchens, medical assistance services, daycare services, and homeless shelters. Each of those services has the following information stored. Users have the ability to find services based on its city, county and zip code, the managers at each service, and the customers that are subscribed to each service.
 

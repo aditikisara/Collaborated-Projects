@@ -1,5 +1,5 @@
 # Collaborated-Projects
-Here is all of the information on the projects I have collaborated on and are not in my profile.
+The following ReadMe contains detailed information on the projects I have collaborated on.
 
 -------------------------------------------------------------------------------
 
@@ -27,8 +27,6 @@ The soaker control system determines when water should be sprayed. It has a buil
 
 Each barn has two pens and each pen has a long pipe with multiple nozzles for the water to spray. Suppose there are no cows in a pen when the system turns on. The barn is divided into 15 sections, each separated by a supporting beam. Each section has roughly 4 nozzles, so there are a total of 60 nozzles per pen. Each gallon sprays about 1.2 - 2 gallons of water per minute. That means that there is at least 72 gallons of water wasted in one pen in the first cycle alone.
 
-Our client has tasked us to create a system that will minimize the amount of water wasted without compromising the comfort of their cows.
-
 My team and I devised a solution to save water without compromising the comfort of the farm’s cows. We installed a camera at the top of a barn so that we could view both pens at the same time. This video feed is then saved in a Raspberry Pi, where it is stored in an SD Card. The recorded video feed will then be fed through our program, where we use OpenCV and YOLO weights to detect cows.
 
 In the future, we would like to have our program work with the soaker control system to move to the next pen where there are no cows available.
@@ -38,3 +36,13 @@ The following YouTube video will show a demo of our project: https://youtu.be/Vb
 Main GitHub repository: https://github.com/shiv248/OpenCV-Cow-Detection
 
 -------------------------------------------------------------------------------
+
+Task Manager
+
+My team and I created a collaborative task manager. Every board created has a project name and a session password. This unique set of information is used by other users to join the same board. Within each board, users can create tasks and mark them as "In-Progress" or "Completed". They also have the option to write notes on the bottom or clear all of the tasks.
+
+In future iterations, we would like to have users input the usernames of the people that are allowed in a board to make the app more secure. Any time a user logs in, the information entered will be checked with our existing database. If the user is under the session they specified, then they will be allowed to enter the board. If not, then an error message would pop up.
+
+The following YouTube video will show a demo of our project: 
+
+Main GitHub repository: https://github.com/aditikisara/Exploratory-Computing-Projects/tree/main/CSE106-Final

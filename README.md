@@ -10,7 +10,7 @@ We didn't want regular users to be able to make major changes to our database, s
 
 We used HTML and CSS to create the pages and Flask (a Python library) to navigate through them. Our database is handled through SQLite, which allows us to easily make changes to our database.
 
-Visit our website, https://nightraven.pythonanywhere.com/, to view the full capabilities of our project. Any related diagrams (Entity Relationship Diagram, Relational Schema, and Use-Case Diagram) can be found in our slides embedded in the About page.
+Any related diagrams (Entity Relationship Diagram, Relational Schema, and Use-Case Diagram) can be found in our slides embedded in the About page.
 
 The following YouTube video will show a demo of our app: https://youtu.be/3Esg5ZAZu18
 
